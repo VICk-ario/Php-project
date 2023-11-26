@@ -1,21 +1,21 @@
 <?php
  include_once 'header.php'; 
  ?>
-    <div class="sidebar">
+    <div class="sidebar" style = "  float: right; width: 30%; height: 70%; background-color:#000333; padding: 20px;">
     <?php
             if (isset($_SESSION["useruid"])){
            echo "<p>Hello there " . $_SESSION["useruid"] . "</p>" ;
              }
     ?>
-    <ol>  
-        <li><a href=" Club Captains through the years">Club Captains through the years</a></li>
-        <li><a href=" Club Academy">Club Academy</a></li>
-         <li><a href="The Spurs Foundation">The Spurs Foundation</a></li>
-    </ol> 
+    <ul >  
+        <li style =list-style-type: none;><a href=" Club Captains through the years">Club Captains through the years</a></li>
+        <li style =list-style-type: none;><a href=" Club Academy">Club Academy</a></li>
+         <li style =list-style-type: none;><a href="The Spurs Foundation">The Spurs Foundation</a></li>
+    </ul> 
 
     </div>
-    <article>
-     <h2>Club History</h2>
+    <article style = " height:100%; width:100%;  background-color: rgb(35, 35, 165); color: papayawhip;">
+   <h2>Club History</h2>
     <p>Tottenham Hotspur Football Club is a football club based in Tottenham, north London, England. Formed in 1882 as "Hotspur Football Club" by a group of schoolboys, it was renamed to "Tottenham Hotspur Football Club" in 1884, and is commonly referred to as "Tottenham" or "Spurs". Initially amateur, the club turned professional in 1895. Spurs won the FA Cup in 1901, becoming the first, and so far only non-League club to do so since the formation of the Football League. The club has won the FA Cup a further seven times, the Football League twice, the League Cup four times, the UEFA Cup twice and the UEFA Cup Winners' Cup in 1963, the first UEFA competition won by an English team. In 1960–61, Tottenham became the first team to complete The Double in the 20th century.
 
         Tottenham played in the Southern League from 1896 until 1908, when they were elected to the Football League Second Division. They won promotion to the First Division the following year, and stayed there until the late 1920s. The club played mostly in the Second Division until the 1950s, when it enjoyed a revival, reaching a peak in the 1960s. Fortunes dipped after the early 1970s, but resurged in the 1980s. Tottenham was a founding member of the Premier League in 1992; they finished in mid-table most seasons, but now rank as one of the top six clubs.
@@ -34,7 +34,6 @@
         <li>   Football League Division Two Champions: 1919/1920, 1949/1950</li>
         <li>   FA Charity Shield Winners: 1920/1921, 1951/1952, 1961/1962, 1962/1963, 1967/1968 (joint), 1981/1982 (joint), 1991/1992 (joint)</li>
      </ol>
-    </article>
-<?php
- include_once 'footer.php'; 
- ?>
+    </article> 
+    <footer style = " background-color: rgb(17, 17, 50);   color: papayawhip; ; padding: 50px; text-align: center;">
+    copyright 2023 . All rights reserved </footer>
