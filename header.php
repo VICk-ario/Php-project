@@ -8,7 +8,28 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spurs</title>
-    <link rel="stylesheet"  href="C:\Users\USER\Desktop\Hello World\otherstyles.css">
+    <style>  .beggining { 
+   background-color: rgb(5, 5, 137); 
+   color: papayawhip ;
+    padding: 20px;
+     text-align: center;
+     }
+     .Navbar {
+        text-align: center;
+        background-color: rgb(1, 1, 66);
+        color: white;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+     }
+     .nav li  { 
+        float: center;
+        list-style-type: none;
+        display: inline;
+        font-size: 20px;
+        border-right: 1px solid #bbb;
+        padding: 20px;
+      } </style>
 </head>
 <body> 
     <div class="beggining">
@@ -16,7 +37,7 @@ session_start();
         <p>We give you the best news about the best football club in North London</p>
     </div>
     
-    <div class="Navbar">
+    <div class="Navbar ">
         <ul class="nav">
             <li><a href="index.php">Home</a></li>
             <li><a href="discover.php">About Us</a></li>
